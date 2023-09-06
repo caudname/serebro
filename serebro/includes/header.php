@@ -34,7 +34,7 @@
 				<div class="header-icons">
 					<div class="regist-block">
 					<?php
-						if ($_SESSION["status"] == "yes") {
+						if (isset($_SESSION["status"]) == "yes") {
 							echo '
 								<a href="#" class="logout-link">
 									<i class="fa fa-user" aria-hidden="true"></i>
